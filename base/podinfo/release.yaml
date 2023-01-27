@@ -21,6 +21,8 @@ spec:
     ingress:
       enabled: true
       className: nginx
+      hosts:
+        - host: 
     hpa: 
       enabled: true
   interval: 5m
